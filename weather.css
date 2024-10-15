@@ -1,5 +1,5 @@
 body {
-    background: #f9f7fe;
+    background: #f3f3f4;
         font-family: "Roboto", sans-serif;
         margin: 0;
         padding: 0;
@@ -10,14 +10,14 @@ body {
 }
 
 a {
-    color: #885df1;
+    color: #f15da0;
         text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
 .weather-app {
-    background: white;
+    background: rgb(250, 250, 250);
         max-width: 600px;
         margin: 60px auto;
         padding: 30px;
@@ -31,9 +31,9 @@ a:hover {
 }
 
 .search-input {
-        background-color: #f9f7fe;
-            border: none;
-            color: rgba(39, 33, 66, 0.4);
+        background-color: #e8e7ee;
+            border-color: #7b53e3;
+            color: rgba(187, 181, 186, 0.4);
             font-size: 16px;
             padding: 20px;
             width: 75%;
@@ -44,7 +44,7 @@ a:hover {
 margin-left: 5px;
     font-size: 16px;
     background-color: #885df1;
-    color: white;
+    color: rgb(10, 5, 10);
     border: none;
     padding: 20px;
     border-radius: 5px;
