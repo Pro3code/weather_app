@@ -1,4 +1,7 @@
 [build]
-  base = "."
-  publish = "."
-  command = ""
+  publish = "weather_app/public"
+  base = "weather_app"            
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
